@@ -1,0 +1,274 @@
+/* Google Font Link  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* Default Css  */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1450px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header-Section Css Start Here  */
+
+.header {
+  background-color: #fd4f30;
+  padding: 10px 0;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-logo a {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.head-signin a {
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 18px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  margin: 0px 20px;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #ed30b3;
+}
+
+/* Header-Section Css End Here  */
+
+/* Banner-Section Css Start Here  */
+
+.banner-section {
+  padding: 48px 10px;
+  background-color: #fff4ee6e;
+}
+
+.banner-main {
+  display: flex;
+  align-items: center;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.head-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #444;
+}
+
+.head-title span {
+  color: #fd4b2f;
+}
+
+.head-para {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #555;
+  margin: 25px 0;
+}
+
+.cmn-btn {
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 25px;
+  background: linear-gradient(#fb9249, #fd5030);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* Banner-Section Css End Here  */
+
+/* About-Section Start Here  */
+
+.about-section {
+  padding: 80px 0 0;
+  background-image: url(../img/about-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #ed30b3;
+}
+
+.about-main {
+  display: flex;
+  align-items: center;
+}
+
+.about-content h2 {
+  font-size: 38px;
+  color: #fb8243;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-content p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+/* About-Section End Here  */
+
+/* Recipie-Section Css Start Here  */
+
+.recipie-section {
+  padding: 80px 0;
+}
+
+.recipie-upper p {
+  text-align: center;
+  font-size: 17px;
+  color: #555;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.recipie-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.recipie-single {
+  width: 30%;
+  padding: 30px;
+  box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.recipie-single img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.recipie-single h3 {
+  font-size: 25px;
+  padding: 20px 0;
+  font-weight: 500;
+  color: #444;
+}
+
+.recipie-single p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Recipie-Section Css End Here  */
+
+/* Optional-Section Start Here  */
+
+.optional-main {
+  display: flex;
+  padding: 60px 50px;
+  justify-content: space-between;
+  box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.5);
+  margin: 70px 0 80px;
+  border-radius: 25px;
+}
+
+.optional-single {
+  text-align: center;
+}
+
+.optional-single h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.optional-single p {
+  font-size: 23px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Optional-Section End Here  */
+
+/* Network-Content Start Here  */
+
+.food-network {
+  background-color: #555555;
+  padding: 60px 0 100px;
+}
+
+.network-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fc4d2f;
+}
+
+.network-content h2 span {
+  color: #fb9249;
+}
+
+.network-content h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Network-Content End Here  */
+
+/* Footer-Section Start Here  */
+
+footer {
+  background-color: #fb7c41;
+  padding: 30px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+footer p a {
+  color: crimson;
+}
+
+/* Footer-Section Start Here  */
